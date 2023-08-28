@@ -149,9 +149,9 @@ export default class App extends React.Component<any, any> {
               // Otherwise ignore
             }
           }
-          
+
           Quill.register(PlainListItem, true);
-            
+
           `}
           defaultFontFamily={customFonts[0].name}
           customFonts={customFonts}
